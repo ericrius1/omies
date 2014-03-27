@@ -37,7 +37,15 @@ angular.module('demo', ['ParseServices', 'ExternalDataServices'])
 
     	}
     })
+    .state('demo.sphere', {
+      url: '/sphere',
+      views: {
+        'detail@demo' : {
+          templateUrl: 'app/views/sphere.html'
+        }
 
+      }
+    })
     .state('demo.crud.detail', {
     	url: 'crud/{monsterId}',
     	views: {

@@ -23,10 +23,10 @@ angular.module('demo')
 
       },
       {
-        title: "Omies",
-        icon: "icon-cloud",
+        title: "sphere",
+        icon: "icon-bolt",
         path: "#/omies",
-        state: "demo.crud"
+        state: "demo.sphere"
       },
       {
         title: "Angular Facebook API",
