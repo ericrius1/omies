@@ -23,6 +23,12 @@ angular.module('demo')
 
       },
       {
+        title: "Omies",
+        icon: "icon-cloud",
+        path: "#/omies",
+        state: "demo.crud"
+      },
+      {
         title: "Angular Facebook API",
         icon: "icon-facebook",
         path: "#/facebook",
