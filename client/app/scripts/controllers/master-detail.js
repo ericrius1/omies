@@ -25,8 +25,8 @@ angular.module('demo')
       {
         title: "sphere",
         icon: "icon-bolt",
-        path: "#/omies",
-        state: "demo.sphere"
+        path: "#/three",
+        state: "demo.three.sphere"
       },
       {
         title: "Angular Facebook API",
